@@ -1,0 +1,384 @@
+<resources>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="kakao_app_key">7592bec8f5f193f1d78a29e9df80ced5REST </string>
+
+    <!-- GoogleMapService -->
+    <string name="google_maps_key">AIzaSyDsnkDV1m_rOxepb30GhSwk-MHOHYbz49g</string>
+    <string name="app_name">20180927</string>
+    <string name="account_1">조회</string>
+    <string name="account_1_ch">朝廷</string>
+    <string name="account_1_ch2">账户 询盘</string>
+    <string name="account_1_v">Sự nghiên cứu                                                                    </string>
+    <string name="account_1_v2">Kiểm tra tài khoản ngân hàng</string>
+    <string name="account_1_e">inquiry</string>
+    <string name="account_1_e2">Check a bank account</string>
+
+    <string name="account_2">인출하다</string>
+    <string name="account_2_ch"> 支取</string>
+    <string name="account_2_ch2">提取存款等。</string>
+    <string name="account_2_v"> Rút ra                                                           </string>
+    <string name="account_2_v2">Rút tiền ở ngân hàng ra</string>
+    <string name="account_2_e">withdraw</string>
+    <string name="account_2_e2">Withdraw money from the bank</string>
+
+    <string name="account_3">입금하다</string>
+    <string name="account_3_ch"> 进款</string>
+    <string name="account_3_ch2">向银行汇款</string>
+    <string name="account_3_v"> Tiền bảo đảm                                                                    </string>
+    <string name="account_3_v2"> Gửi tiền ở ngân hàng</string>
+    <string name="account_3_e">Deposit</string>
+    <string name="account_3_e2">Deposit money in a bank</string>
+
+    <string name="account_4">출금하다</string>
+    <string name="account_4_ch"> 支出</string>
+    <string name="account_4_ch2">在银行取钱。</string>
+    <string name="account_4_v"> Rút ra                                                                    </string>
+    <string name="account_4_v2">Rút tiền ở ngân hàng ra.</string>
+    <string name="account_4_e">withdraw</string>
+    <string name="account_4_e2">Withdraw money from the bank</string>
+
+    <string name="account_5">이체하다/송금하다</string>
+    <string name="account_5_ch"> 汇款           </string>
+    <string name="account_5_v">Gửi tiền                                                                    </string>
+    <string name="account_5_v2">Gửi tiền cho người khác</string>
+    <string name="account_5_e">send money</string>
+    <string name="account_5_e2">Remit money</string>
+
+    <string name="account_6">인터넷뱅킹</string>
+    <string name="account_6_ch">网上金融     </string>
+    <string name="account_6_v"> Ngân hàng điện tử                                                                 </string>
+    <string name="account_6_v2">   Dịch vụ internet do ngân hàng cung cấp</string>
+    <string name="account_6_e">e-banking                                                                    </string>
+    <string name="account_6_e2">Internet service provided by banks</string>
+
+    <string name="account_7">자동이체</string>
+    <string name="account_7_ch">自动转账     </string>
+    <string name="account_7_v"> 定期自动取款</string>
+    <string name="account_7_v2">向银行汇款</string>
+    <string name="account_7_e">electronic transfer                                                                </string>
+    <string name="account_7_e2"> pay a bill via automatic withdrawal</string>
+
+    <string name="account_8">해외송금</string>
+    <string name="account_8_ch">国外汇款       </string>
+    <string name="account_8_v">也就是说,把钱汇给海外账户</string>
+    <string name="account_8_v2">向银行汇款</string>
+    <string name="account_8_e">overseas remittance                                                                     </string>
+    <string name="account_8_e2">send money abroad</string>
+
+    <string name="account_9">캐시 백</string>
+    <string name="account_9_ch">钱包            </string>
+    <string name="account_9_v"> 回头换钱 </string>
+    <string name="account_9_v2">向银行汇款</string>
+    <string name="account_9_e">Cash back                                                                    </string>
+    <string name="account_9_e2">Getting cash withdrawal services while paying with a credit card at a store</string>
+
+    <string name="account_10">한도</string>
+    <string name="account_10_ch">限度         </string>
+    <string name="account_10_v">定款钱</string>
+    <string name="account_10_v2">向银行汇款</string>
+    <string name="account_10_e">limit                                                                     </string>
+    <string name="account_10_e2">To a certain degree or to a limited extent</string>
+
+    <string name="account_11">만기</string>
+    <string name="account_11_ch">万机       </string>
+    <string name="account_11_v">事先定好的期限都是真的</string>
+    <string name="account_11_v2">向银行汇款</string>
+    <string name="account_11_e">maturity                                                                   </string>
+    <string name="account_11_e2"> The date on the bill as payment date for the amount of the bill.</string>
+
+    <string name="account_12">투자</string>
+    <string name="account_12_ch">投资          </string>
+    <string name="account_12_v">为了谋取利益,不管是什么事都要投入到事业或事业上来</string>
+    <string name="account_12_v2">向银行汇款</string>
+    <string name="account_12_e">Investment</string>
+    <string name="account_12_e2">Capital or invest time or energy in a bank to make a profit</string>
+
+    <!--대출.중국어-->
+    <string name="loan_1">원금</string>
+    <string name="loan_1_ch">  本金                                                           </string>
+    <string name="loan_1_ch2">保本话</string>
+    <string name="loan_1_e">principal                                                                    </string>
+    <string name="loan_1_e2"> The principal means the sum of money.</string>
+
+    <string name="loan_2">이자율</string>
+    <string name="loan_2_ch">  利率                                                                    </string>
+    <string name="loan_2_ch2">本金与利息的比率   </string>
+    <string name="loan_2_e">Interest rate                                                                                          </string>
+    <string name="loan_2_e2">The rate of interest to the principal</string>
+
+    <string name="loan_3">상환</string>
+    <string name="loan_3_ch"> 偿还                                                                     </string>
+    <string name="loan_3_ch2">还清</string>
+    <string name="loan_3_e">repayment                                                                     </string>
+    <string name="loan_3_e2">Pay back or return money</string>
+
+    <string name="loan_4">납부</string>
+    <string name="loan_4_ch"> 缴纳                                                                     </string>
+    <string name="loan_4_ch2">把税捐给有关机关</string>
+    <string name="loan_4_e">Payment                                                                   </string>
+    <string name="loan_4_e2">The imposition of taxes, utility bills, etc.</string>
+
+    <string name="loan_5">한도</string>
+    <string name="loan_5_ch"> 限度                                                                     </string>
+    <string name="loan_5_ch2">一定程度 或多或少</string>
+    <string name="loan_5_e">Limit</string>
+    <string name="loan_5_e2">To a certain extent</string>
+
+    <string name="loan_6">연장</string>
+    <string name="loan_6_ch"> 延长                                                                     </string>
+    <string name="loan_6_ch2">把时间和距离比原来长得更长</string>
+    <string name="loan_6_e">extension                                                                     </string>
+    <string name="loan_6_e2">A longer term at the bank</string>
+
+    <string name="loan_7">약정</string>
+    <string name="loan_7_ch"> 本金</string>
+    <string name="loan_7_ch2">保本话</string>
+    <string name="loan_7_e">contract                                                                    </string>
+    <string name="loan_7_e2"> A bank contract</string>
+
+    <string name="loan_8">철회</string>
+    <string name="loan_8_ch"> 撤回                                                                    </string>
+    <string name="loan_8_ch2">已提出的或主张的重新收回或反悔</string>
+    <string name="loan_8_e">withdrawal                                                                     </string>
+    <string name="loan_8_e2">Recant or reverse what has already been submitted or claimed</string>
+
+    <string name="loan_9">생활비대출</string>
+    <string name="loan_9_ch"> 生活费贷款                                                                 </string>
+    <string name="loan_9_ch2"> 借钱谋生</string>
+    <string name="loan_9_e">the cost of living loan                                                                    </string>
+    <string name="loan_9_e2">Loan money from a bank for own life</string>
+
+    <string name="loan_10">주택담보</string>
+    <string name="loan_10_ch"> 住房担保                                                                    </string>
+    <string name="loan_10_ch2">按揭贷款</string>
+    <string name="loan_10_e">a mortgage on the house                                                                   </string>
+    <string name="loan_10_e2">  A long-term mortgage by a bank on real estate</string>
+
+    <string name="loan_11">예금담보</string>
+    <string name="loan_11_ch"> 存款担保                                                                    </string>
+    <string name="loan_11_ch2">在银行贷款时,向银行担保自己持有的定期存款或存款债券</string>
+    <string name="loan_11_e">deposit security                                                                    </string>
+    <string name="loan_11_e2"> When you borrow money from the bank,  A guarantee of own money or deposit bonds to the bank</string>
+
+    <string name="loan_12">정기예금</string>
+    <string name="loan_12_ch"> 定期存款                                                                   </string>
+    <string name="loan_12_ch2"> 定期向银行贷款存钱</string>
+    <string name="loan_12_e">fixed deposit                                                                    </string>
+    <string name="loan_12_e2">A deposit in which a certain amount is left to a financial institution for a certain period of time and promised not to be found within a set period</string>
+
+    <string name="loan_13">수수료</string>
+    <string name="loan_13_ch"> 本金</string>
+    <string name="loan_13_ch2">保本话</string>
+    <string name="loan_13_e">commission</string>
+    <string name="loan_13_e2"> A charge for something</string>
+    <!--카드.중국어-->
+    <string name="card_1">카드 신청</string>
+    <string name="card_1_ch"> 本金</string>
+    <string name="card_1_ch2">保本话</string>
+    <string name="card_1_v">Sự xin việc                                                                   </string>
+    <string name="card_1_v2">Gởi một thẻ mới cho một ngân hàng</string>
+    <string name="card_1_e">card application                                                                     </string>
+    <string name="card_1_e2"> Apply for a new card at a bank</string>
+
+    <string name="card_2">카드 조회</string>
+    <string name="card_2_ch"> 本金</string>
+    <string name="card_2_ch2">保本话</string>
+    <string name="card_2_v">Câu hỏi bằng thẻ                                                                     </string>
+    <string name="card_2_v2">Tìm kiếm mục đích sử dụng thẻ tín dụng</string>
+    <string name="card_2_e">card inquiry                                                                     </string>
+    <string name="card_2_e2">check a breakdown of own credit card use</string>
+
+    <string name="card_3">카드 사용등록</string>
+    <string name="card_3_ch"> 本金    </string>
+    <string name="card_3_ch2"> 保本话</string>
+    <string name="card_3_v">Đăng kí sử dụng thẻ                                    </string>
+    <string name="card_3_v2">Nếu muốn sử dụng thẻ thì trước tiên hãy đăng ký ở ngân hàng.</string>
+    <string name="card_3_e">Register card usage                                    </string>
+    <string name="card_3_e2"> To use the card, first register it at the bank.</string>
+
+    <string name="card_4">카드 분실신고</string>
+    <string name="card_4_ch">本金 </string>
+    <string name="card_4_ch2">保本话</string>
+    <string name="card_4_v"> Khai báo mất việc đánh mất                                                                    </string>
+    <string name="card_4_v2">  Nếu mất thẻ thì phải khai báo ngân hàng</string>
+    <string name="card_4_e"> report the card missing                                                                      </string>
+    <string name="card_4_e2">If you lose your card, you have to report it to the bank.</string>
+
+    <string name="card_5">카드 재발급</string>
+    <string name="card_5_ch">万机</string>
+    <string name="card_5_ch2">事先定好的期限都是真的</string>
+    <string name="card_5_v">Thẻ thay đổi              </string>
+    <string name="card_5_v2"> Nếu mất thẻ thì phải báo cáo và nộp đơn xin cấp lại</string>
+    <string name="card_5_e">Replacement card                                                                     </string>
+    <string name="card_5_e2">If you lose your card, you have to report it to the bank and apply for reissue.</string>
+
+    <string name="card_6">카드 정지</string>
+    <string name="card_6_ch">投资 </string>
+    <string name="card_6_ch2"> 为了谋取利益,不管是什么事都要投入到事业或事业上来</string>
+    <string name="card_6_v">Ngưng giao dịch bưu phẩm                                                                     </string>
+    <string name="card_6_v2">Đừng có dùng thẻ ngân hàng ở ngân hàng nữa</string>
+    <string name="card_6_e">suspend card transaction</string>
+    <string name="card_6_e2">Stopping the use of cards at the bank</string>
+
+    <!--인증.중국어-->
+    <string name="cert_1">OTP</string>
+    <string name="cert_1_ch"> 一次性密码                                                                    </string>
+    <string name="cert_1_ch2"> 为了证明自己是在银行,使用一次性的密码</string>
+    <string name="cert_1_v">Ngưng giao dịch bưu phẩm</string>
+    <string name="cert_1_v2">Đừng có dùng thẻ ngân hàng ở ngân hàng nữa</string>
+    <string name="cert_1_e">a temporary password                                                                     </string>
+    <string name="cert_1_e2">The bank uses a one-time password to authenticate the account.</string>
+
+
+    <string name="cert_2">공인인증</string>
+    <string name="cert_2_ch"> 公认认证                                                                   </string>
+    <string name="cert_2_ch2">进行电子商务交易时,确认客户身份 用于证明的 以一种电子签名 公证认证机构发行的认证书</string>
+    <string name="cert_2_v">Giấy chứng nhận chính thức                                                                    </string>
+    <string name="cert_2_v2">Giấy chứng nhận được cấp phát hành bởi cơ quan  chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử</string>
+    <string name="cert_2_e">A public certificate                                                                     </string>
+    <string name="cert_2_e2">A certificate issued by a public certification authority as a kind of electronic signature used to identify and authenticate traders in electronic commerce.</string>
+
+
+    <string name="cert_3">바이오인증</string>
+    <string name="cert_3_ch"> 生物认证                                                                       </string>
+    <string name="cert_3_ch2">  利用人固有的生物信息确认身份时,用他人的ID和ID进行保存的特点和输入的特征比较相比较(1:1比较)的技术 </string>
+    <string name="cert_3_v">Chứng nhận sinh vật                                                                    </string>
+    <string name="cert_3_v2"> Hãy sử dụng chứng nhận sinh vật sống để chứng minh bản thân mình.</string>
+    <string name="cert_3_e">Bio-certification                                                                   </string>
+    <string name="cert_3_e2"> Use biometric authentication to prove yourself to the bank.</string>
+
+    <string name="cert_4">인증서</string>
+    <string name="cert_4_ch">本金 </string>
+    <string name="cert_4_ch2">保本话</string>
+    <string name="cert_4_v">Giấy chứng nhận xác </string>
+    <string name="cert_4_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="cert_4_e">authentication certificate                                                                    </string>
+    <string name="cert_4_e2">A certificate issued by a public certification authority as a kind of electronic signature used to identify and authenticate traders in electronic commerce.</string>
+
+    <!--재테크. 중국어-->
+    <string name="invest_1">예금</string>
+    <string name="invest_1_ch"> 存款                                                                     </string>
+    <string name="invest_1_ch2">按一定的合同,把钱交给银行或邮局之类的事</string>
+    <string name="invest_1_v">Giấy chứng nhận xác </string>
+    <string name="invest_1_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="invest_1_e">Deposit                                                                    </string>
+    <string name="invest_1_e2">Deposit in a bank on a fixed contract</string>
+
+    <string name="invest_2">적금</string>
+    <string name="invest_2_ch"> 整存整取                                                                     </string>
+    <string name="invest_2_ch2">在一定期限内提取一定金额的存款</string>
+    <string name="invest_2_v">Tiết kiệm tiền                                                                    </string>
+    <string name="invest_2_v2">Sau khi thanh toán một số tiền nhất định trong một thời gian nhất định, sau khi thanh toán tiền tệ của các tổ chức tài chính</string>
+    <string name="invest_2_e">installment savings                                                                    </string>
+    <string name="invest_2_e2"> Savings after paying a certain amount into a financial institution for a certain period of time</string>
+
+    <string name="invest_3">청약</string>
+    <string name="invest_3_ch"> 要约                                                                     </string>
+    <string name="invest_3_ch2">以签署一定内容的合同为目的的单方面定调</string>
+    <string name="invest_3_v">Giấy chứng nhận xác </string>
+    <string name="invest_3_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="invest_3_e">subscription                                                                    </string>
+    <string name="invest_3_e2"> Indication with the intention of the bank to enter into a given contract</string>
+
+    <string name="invest_4">경매</string>
+    <string name="invest_4_ch"> 拍卖                                                                    </string>
+    <string name="invest_4_ch2">买东西的人在很多时候卖给那些开价最高的人</string>
+    <string name="invest_4_v">Giấy chứng nhận xác </string>
+    <string name="invest_4_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="invest_4_e">auction                                                                     </string>
+    <string name="invest_4_e2">Selling to the highest bidder</string>
+
+    <string name="invest_5">매물</string>
+    <string name="invest_5_ch"> 待售房                                                                   </string>
+    <string name="invest_5_ch2"> 卖出的东西</string>
+    <string name="invest_5_v">Giấy chứng nhận xác </string>
+    <string name="invest_5_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="invest_5_e">authentication certificate </string>
+    <string name="invest_5_e2">A certificate issued by a public certification authority as a kind of electronic signature used to identify and authenticate traders in electronic commerce.</string>
+
+    <string name="invest_6">부동산</string>
+    <string name="invest_6_ch"> 不动产                                                                    </string>
+    <string name="invest_6_ch2">行动起来,搬不动的财产。土地、建筑物、树木等</string>
+    <string name="invest_6_v">Giấy chứng nhận xác </string>
+    <string name="invest_6_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="invest_6_e">Offerings</string>
+    <string name="invest_6_e2">Goods for sale</string>
+
+    <!--세금.중국어-->
+    <string name="tax_1">공과금</string>
+    <string name="tax_1_ch"> 公共事业费                                                                   国家或公共团体向国民征收的金钱负担</string>
+    <string name="tax_1_ch2">保本话</string>
+    <string name="tax_1_v">Giấy chứng nhận xác </string>
+    <string name="tax_1_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="tax_1_e">utility bill </string>
+    <string name="tax_1_e2">Financial burdens imposed on the people by the state or public organizations</string>
+
+    <string name="tax_2">납부</string>
+    <string name="tax_2_ch"> 缴纳                                                                    </string>
+    <string name="tax_2_ch2">把税捐给有关机关</string>
+    <string name="tax_2_v">Giấy chứng nhận xác </string>
+    <string name="tax_2_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="tax_2_e">payment                                  </string>
+    <string name="tax_2_e2">The imposition of taxes, utility bills, etc.</string>
+
+    <string name="tax_3">지로</string>
+    <string name="tax_3_ch"> 岔路                                                                   </string>
+    <string name="tax_3_ch2">银行之类的金融圈, 接受送钱的人的委托 一个有钱人或团体的人 存款人</string>
+    <string name="tax_3_v">Giấy chứng nhận xác </string>
+    <string name="tax_3_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="tax_3_e">giro                                                                    </string>
+    <string name="tax_3_e2">In financial institutions such as banks, money is deposited into a deposit account of an individual or an organization that will receive money on the request of a person who sends it</string>
+
+    <string name="tax_4">외국인 소득세</string>
+    <string name="tax_4_ch"> 外国人所得税</string>
+    <string name="tax_4_ch2">外国人按额度高低计算的税收数额</string>
+    <string name="tax_4_v">Giấy chứng nhận xác </string>
+    <string name="tax_4_v2"> Giấy chứng nhận được cấp phát hành bởi cơ quan chứng nhận điện tử được sử dụng trong việc xác nhận và xác nhận các giao dịch điện tử trong giao dịch thương mại điện tử.</string>
+    <string name="tax_4_e"> Foreign income taxes                                                                    </string>
+    <string name="tax_4_e2">A tax levied on the money a foreign individual earns during the year</string>
+
+    <string name="tax_5">전기세</string>
+    <string name="tax_5_ch"> 电费税                  </string>
+    <string name="tax_5_ch2">"电费"常用语</string>
+    <string name="tax_5_e">Electric bill                                                                    </string>
+    <string name="tax_5_e2">Electric charge</string>
+
+    <string name="tax_6">도시가스</string>
+    <string name="tax_6_ch"> 城市煤气                                                                </string>
+    <string name="tax_6_ch2">根据煤气事业法  获得许可的事业者  煤气气</string>
+    <string name="tax_6_e">gas                                                                    </string>
+    <string name="tax_6_e2">Fuel gas directly supplied by a business licensed under the Gas Business Act to urban homes or factories through plumbing. Coal gas</string>
+
+    <string name="tax_7">상하수도요금(수도세)</string>
+    <string name="tax_7_ch"> 本金</string>
+    <string name="tax_7_ch2">保本话</string>
+    <string name="tax_7_e">Water fee                                                                   </string>
+    <string name="tax_7_e2">A monthly payment of water</string>
+
+    <string name="tax_8">소득세</string>
+    <string name="tax_8_ch"> 本金</string>
+    <string name="tax_8_ch2">保本话</string>
+    <string name="tax_8_e">Income tax                                                                    </string>
+    <string name="tax_8_e2">tax on the amount of money an individual earns per year</string>
+
+    <string name="tax_9">재산세</string>
+    <string name="tax_9_ch"> 本金</string>
+    <string name="tax_9_ch2">保本话</string>
+    <string name="tax_9_e">property tax                                                                   </string>
+    <string name="tax_9_e2">One of the local taxes</string>
+
+    <string name="tax_10">주민세</string>
+    <string name="tax_10_ch"> 本金</string>
+    <string name="tax_10_ch2">保本话</string>
+    <string name="tax_10_e">residence tax                                                                   </string>
+    <string name="tax_10_e2">One of the local taxes Levy on individual entities or their income resident in the area</string>
+
+    <string name="tax_11">통신비</string>
+    <string name="tax_11_ch"> 本金</string>
+    <string name="tax_11_ch2">保本话</string>
+    <string name="tax_11_e">phone bill                                                                    </string>
+    <string name="tax_11_e2">Mobile Communication Costs</string>
+</resources>

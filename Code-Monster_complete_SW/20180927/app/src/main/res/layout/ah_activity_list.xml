@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F7F7F7"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rGroup"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="은행명 검색"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/btnMemu"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="onPopupButtonClick"
+            android:src="@drawable/sorting_icon"
+            android:text="정렬" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dpListView"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+</LinearLayout>

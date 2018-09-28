@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/bill_top" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="17dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="81dp"
+                        android:src="@drawable/foreign" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="외국인소득세" />
+
+                    <ImageView
+                        android:id="@+id/btn_sel_for"
+                        android:layout_width="217dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="onClick"
+                        app:srcCompat="@drawable/ok_btn" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="17dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="81dp"
+                        android:src="@drawable/water" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="한국상하수도협회" />
+
+                    <ImageView
+                        android:id="@+id/btn_sel_war"
+                        android:layout_width="217dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="onClick"
+                        app:srcCompat="@drawable/ok_btn" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="17dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="81dp"
+                        android:src="@drawable/gas" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="한국가스공사" />
+
+                    <ImageView
+                        android:id="@+id/btn_sel_gas"
+                        android:layout_width="217dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="onClick"
+                        app:srcCompat="@drawable/ok_btn" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="190dp"
+                android:layout_columnWeight="1"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_rowWeight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="17dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="81dp"
+                        android:src="@drawable/ele" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="한국전력공사" />
+
+                    <ImageView
+                        android:id="@+id/btn_sel_ele"
+                        android:layout_width="217dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="onClick"
+                        app:srcCompat="@drawable/ok_btn" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item>20대 이하</item>
+        <item>20~30대</item>
+        <item>40~50대</item>
+        <item>60대 이상</item>
+    </string-array>
+</resources>

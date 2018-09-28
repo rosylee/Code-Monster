@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <manifest package="com.example.dwu.management" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true">
+    <activity android:name="com.example.dwu.a20180927.LoginActivity">
+      <intent-filter>
+          <action android:name="android.intent.action.MAIN"/>
+          <category android:name="android.intent.category.LAUNCHER"/>
+    </intent-filter>
+</activity>
+   <activity android:name="com.example.dwu.a20180927.MainActivity"/>
+        <activity android:name="com.example.dwu.a20180927.RegisterActivity"/><activity android:name="com.example.dwu.a20180927.MenuActivity"/>
+        <activity android:name="com.example.dwu.a20180927.selectfield"/><activity android:name="com.example.dwu.a20180927.Tax.TaxVietnamese"/>
+        <activity android:name="com.example.dwu.a20180927.Account.AccountActivite"/>
+        <activity android:name="com.example.dwu.a20180927.Tax.TaxEnglish"/><activity android:name="com.example.dwu.a20180927.Tax.TaxChinese"/>
+        <activity android:name="com.example.dwu.a20180927.Tax.TaxActivityv"/><activity android:name="com.example.dwu.a20180927.Tax.TaxActivitye"/>
+        <activity android:name="com.example.dwu.a20180927.Account.AccountActivity"/><activity android:name="com.example.dwu.a20180927.Card.CardActivity"/>
+        <activity android:name="com.example.dwu.a20180927.Certification.CertificationActivity"/><activity android:name="com.example.dwu.a20180927.Investment.InvestmentActivity"/>
+        <activity android:name="com.example.dwu.a20180927.Loans.LoanActivity"/>
+        <activity android:name="com.example.dwu.a20180927.Tax.TaxActivity"/>
+        <activity android:name="com.example.dwu.a20180927.selectfield3"/><activity android:name="com.example.dwu.a20180927.selectfield2"/>
+        <activity android:name="com.example.dwu.a20180927.Search.Search"/><activity android:name="com.example.dwu.a20180927.Search.account33"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account32"/><activity android:name="com.example.dwu.a20180927.Search.account31"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account30"/><activity android:name="com.example.dwu.a20180927.Search.account29"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account28"/><activity android:name="com.example.dwu.a20180927.Search.account27"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account26"/><activity android:name="com.example.dwu.a20180927.Search.account25"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account24"/><activity android:name="com.example.dwu.a20180927.Search.account20"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account19"/><activity android:name="com.example.dwu.a20180927.Search.account18"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account17"/><activity android:name="com.example.dwu.a20180927.Search.account16"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account15"/><activity android:name="com.example.dwu.a20180927.Search.account14"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account9"/><activity android:name="com.example.dwu.a20180927.Search.account8"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account7"/><activity android:name="com.example.dwu.a20180927.Search.account6"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account5"/><activity android:name="com.example.dwu.a20180927.Search.account4"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account1"/><activity android:name="com.example.dwu.a20180927.Search.account2"/>
+        <activity android:name="com.example.dwu.a20180927.Search.account3"/><activity android:name="com.example.dwu.a20180927.Loans.LoanVietnamese"/>
+        <activity android:name="com.example.dwu.a20180927.Loans.LoanEnglish"/><activity android:name="com.example.dwu.a20180927.Loans.LoanChinese"/>
+        <activity android:name="com.example.dwu.a20180927.Loans.LoanActivityv"/><activity android:name="com.example.dwu.a20180927.Loans.LoanActivitye"/>
+        <activity android:name="com.example.dwu.a20180927.LanguageSelectActivity"/><activity android:name="com.example.dwu.a20180927.Investment.InvestmentVietnamese"/>
+        <activity android:name="com.example.dwu.a20180927.Investment.InvestmentEnglish"/><activity android:name="com.example.dwu.a20180927.Investment.InvestmentChinese"/>
+        <activity android:name="com.example.dwu.a20180927.Investment.InvestmentActivityv"/><activity android:name="com.example.dwu.a20180927.Investment.InvestmentActivitye"/>
+        <activity android:name="com.example.dwu.a20180927.Certification.CertificationVietnamese"/><activity android:name="com.example.dwu.a20180927.Certification.CertificationEnglish"/>
+        <activity android:name="com.example.dwu.a20180927.Certification.CertificationChinese"/><activity android:name="com.example.dwu.a20180927.Certification.CertificationActivityv"/>
+        <activity android:name="com.example.dwu.a20180927.Certification.CertificationActivitye"/><activity android:name="com.example.dwu.a20180927.Card.CardVietnamese"/>
+        <activity android:name="com.example.dwu.a20180927.Card.CardEnglish"/><activity android:name="com.example.dwu.a20180927.Card.CardChinese"/>
+        <activity android:name="com.example.dwu.a20180927.Card.CardActivityv"/><activity android:name="com.example.dwu.a20180927.Card.CardActivitye"/>
+        <activity android:name="com.example.dwu.a20180927.Account.AccountVietnamese"/><activity android:name="com.example.dwu.a20180927.Account.AccountEnglish"/>
+        <activity android:name="com.example.dwu.a20180927.Account.AccountChinese"/><activity android:name="com.example.dwu.a20180927.Account.AccountActivityv"/>
+        <activity android:name="com.example.dwu.a20180927.ah_MainActivity" />
+        <activity android:name="com.example.dwu.a20180927.ah_DepoActivity" />
+        <activity android:name="com.example.dwu.a20180927.ah_DepoDetailActivity"/>
+        <activity android:name="com.example.dwu.a20180927.ah_AppActivity" />
+        <activity android:name="com.example.dwu.a20180927.ah_AppDetailActivity" />
+        <activity android:name="com.example.dwu.a20180927.ah_InstActivity" />
+        <activity android:name="com.example.dwu.a20180927.ah_InstDetailActivity" />
+         <activity android:name="com.example.dwu.a20180927.um_MainActivity" />
+         <activity android:name="com.example.dwu.a20180927.TaxSelectActivity" />
+         <activity android:name="com.example.dwu.a20180927.TaxAddActivity" />
+         <activity android:name="com.example.dwu.a20180927.GetTaxActivity" />
+        <activity
+            android:name="com.example.dwu.a20180927.hr_MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name="com.example.dwu.a20180927.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:noHistory="true">
+        </activity>
+
+        <!-- GoogleMapService -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="cec927bc5d8efb15e46c2737f29f1fee"/>
+
+        <meta-data
+            android:name="com.kakao.sdk.ClientSecret"
+            android:value="5Y4blyWUK9TBOYb9oEq3t9oneRAavFPO"/>
+
+    </application>
+</manifest>

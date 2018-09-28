@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/calender"
+                android:layout_width="98dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/main_calender"
+                android:text="\n\n\n\n\n\n\n고지서일정"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/dictionary"
+                android:layout_width="98dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/main_word"
+                android:text="\n\n\n\n\n\n\n금융용어사전"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/findbank"
+                android:layout_width="98dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/find_place"
+                android:text="\n\n\n\n\n\n\n국제은행찾기"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/bankproduct"
+                android:layout_width="98dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/main_finace"
+                android:text="\n\n\n\n\n\n\n다문화금융상품"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

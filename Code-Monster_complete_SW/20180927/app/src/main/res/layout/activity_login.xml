@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="27dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/login_logo"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <EditText
+            android:id="@+id/idText"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/login_tool"
+            android:ems="10"
+            android:hint="  ID"
+            android:inputType="textMultiLine"
+            android:paddingLeft="6dp"
+            android:textSize="12dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textColorLink="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="200dp" />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:layout_above="@+id/registerButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/login_tool"
+            android:ems="10"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textSize="12dp"
+            android:paddingLeft="4dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textColorHint="@android:color/holo_red_light"
+            android:textColorLink="@android:color/transparent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="285dp" />
+
+        <ImageView
+            android:id="@+id/loginButton"
+            android:layout_width="304dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="15dp"
+
+            android:src="@drawable/login_bar"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="첫 방문이신가요?"
+                android:textAlignment="textEnd"
+                android:textColor="@color/visitfirst" />
+
+            <TextView
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="95dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="Sign in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/sign"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="383dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
